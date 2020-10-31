@@ -1,0 +1,25 @@
+{
+    "name": "mme-you-vs-shakespeare",
+    "version": "1.0.0",
+    "description": "Test your skill against the great barde!",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "eslint": "eslint --format table resources/js",
+        "start": "http-server . -o -c-1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Multimedia-Engineering-Regensburg-Tasks/WS20-U01-You-Vs-Will"
+    },
+    "author": "Alexander Bazo <alexanderbazo@googlemail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Multimedia-Engineering-Regensburg-Tasks/WS20-U01-You-Vs-Will/issues"
+    },
+    "homepage": "https://github.com/Multimedia-Engineering-Regensburg-Tasks/WS20-U01-You-Vs-Will",
+    "dependencies": {
+        "eslint": "^7.10.0",
+        "http-server": "^0.12.3"
+    }
+}
