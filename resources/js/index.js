@@ -1,20 +1,16 @@
 /* eslint-env browser */
 
-const DATA_PATH = "data/romeo-and-juliet-word-list.json";
-
-function loadWordlistFromJSON(callback) {
-    fetch(DATA_PATH).then(response => response.json()).then(data => callback(data));
-}
+import WordList from "./wordlist/WordList.js";
 
 function init() {
-    loadWordlistFromJSON(onWordlistAvailable);
+    WordList.loadList().then(onWordlistAvailable);
 }
 
 function onWordlistAvailable(wordlist) {
     console.log("### WordList received ###");
     // Prints the first 10 entries from the received word list
     console.log(wordlist.slice(0, 10));
-    // Start your own implementation here
+    // TODO: Start your implementation here
 }
 
 init();

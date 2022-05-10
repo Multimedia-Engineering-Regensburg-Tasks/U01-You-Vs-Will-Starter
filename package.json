@@ -3,21 +3,14 @@
     "version": "1.0.1",
     "description": "Test your skill against the great barde!",
     "main": "index.html",
+    "type": "module",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "eslint": "eslint --format table resources/js"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Multimedia-Engineering-Regensburg-Tasks/WS20-U01-You-Vs-Will"
-    },
     "author": "Alexander Bazo <alexanderbazo@googlemail.com>",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/Multimedia-Engineering-Regensburg-Tasks/WS20-U01-You-Vs-Will/issues"
-    },
-    "homepage": "https://github.com/Multimedia-Engineering-Regensburg-Tasks/WS20-U01-You-Vs-Will",
     "dependencies": {
-        "eslint": "^7.10.0"
+        "eslint": "^8.15.0"
     }
 }
